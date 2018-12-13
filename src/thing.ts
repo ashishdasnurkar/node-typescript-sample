@@ -15,7 +15,7 @@ export class Thing implements INamed {
     return this._color;
   }
 
-  constructor(animal: Animal, color: Color) {
+  constructor(color: Color, animal: Animal) {
     this._animal = animal;
     this._color = color;
   }
